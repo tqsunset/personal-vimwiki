@@ -1,4 +1,4 @@
-# Parameter Expension
+ Parameter Expension
 
 ## 매개변수 확장이란
 
@@ -33,7 +33,7 @@ $ echo ${#foo}
 ```
 
 ## Substring removal 
-
+<TODO: finish subsstring removal>
 ## 참고
 - https://mug896.github.io/bash-shell/exp_and_sub/parameter_expansion.html
 - https://linuxhint.com/bash_parameter_expansion/
