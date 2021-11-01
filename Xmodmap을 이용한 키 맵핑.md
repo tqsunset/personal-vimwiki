@@ -9,7 +9,7 @@
 
 - xev : 어떤 버튼의 키코드를 알기 위해 사용
 
-- ~/.bashrc : terminal config
+- ~/.bashrc : terminal configuration file
 
 ###  1. 기존 xmodmap config 파일 백업
 
@@ -35,7 +35,7 @@ $ xev
 
 xev 실행 후 대상 버튼을 조작하면 다음과 같은 메세지가 뜬다.
 
-![](/home/gwlee/Pictures/Screenshot from 2021-07-15 21-46-19.png)
+![xev 실행 메세지](/home/gwlee/Pictures/Screenshot from 2021-07-15 21-46-19.png)
 
 keycode 뒤에 이어지는 숫자가 그 버튼의 keycode이다. 예시의 keycode는 133이다.
 
@@ -65,7 +65,6 @@ keycode 131 = Hangul_Hanja NoSymbol Hangul_Hanja NoSymbol Hangul_Hanja
 따라서 위의 예문에서 keycode 131는  shift와 같이 누를 때는 아무런 역할도 하지 않고, Mode_switch와 같이 누를 땐 한자 전환 키로 작동함을 알 수 있다.
 
 > ❗ **`~/.Xmodmap`내의 설정이 적용되지 않거나 자꾸 풀리는 경우**
->
 > 1. Xmodmap 커맨드 리스트를 셸 파일로 저장
 >
 >    예시)
@@ -96,6 +95,7 @@ keycode 131 = Hangul_Hanja NoSymbol Hangul_Hanja NoSymbol Hangul_Hanja
 >
 >    - 터미널 실행 : Ctrl+Alt +T
 >
+> 새로운 입력장치를 연결하거나 USB를 연결하면 커스텀 설정이 풀린다. 그럴 때마다 사용하는 방법이다.
 > 다소 조잡한 방법이지만 지금까지 사용에 별 문제는 없었다. 
 
 
