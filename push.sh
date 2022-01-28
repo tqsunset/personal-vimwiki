@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~/vimwiki
 git add .
 git status
 
